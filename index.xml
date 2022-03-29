@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PhyML</title>
+    <link>http://phyml.github.io/</link>
+    <description>Recent content on PhyML</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Mar 2022 21:16:32 +0200</lastBuildDate><atom:link href="http://phyml.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test post</title>
+      <link>http://phyml.github.io/posts/testpost/</link>
+      <pubDate>Tue, 29 Mar 2022 21:16:32 +0200</pubDate>
+      
+      <guid>http://phyml.github.io/posts/testpost/</guid>
+      <description>Just some short julia function testing.
+function Date(y::Int64, m::Int64=1, d::Int64=1)  err = validargs(Date, y, m, d)  err === nothing || throw(err)  return Date(UTD(totaldays(y, m, d))) end Some Latex :
+$$ \begin{aligned} \nabla \cdot \mathbf{D} &amp;amp;= \rho \\ \nabla \cdot \mathbf{B} &amp;amp;= 0 \end{aligned} $$</description>
+    </item>
+    
+  </channel>
+</rss>
